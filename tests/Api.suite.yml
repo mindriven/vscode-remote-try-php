@@ -1,4 +1,7 @@
 actor: ApiTester
 modules:
     enabled:
+        - REST:
+            url: https://mindriven-congenial-palm-tree-7wv9v5r4pvcpx4-8000.preview.app.github.dev/
+            depends: PhpBrowser
         - \Helper\Api

@@ -16,6 +16,6 @@ class FirstApiCest
         ]);
         $I->seeResponseCodeIsSuccessful();
         $I->seeResponseIsJson();
-        $I->seeResponseContains('{"result":"ok"}');
+        $I->seeResponseContains('{"hello":"davert"}');
     }
 }
